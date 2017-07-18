@@ -38,6 +38,34 @@ class Main2Activity : AppCompatActivity() {
         for (item in items) {
             println(item)
         }
+        var jj = arrayListOf(2,2,234,23,4)
+        jj.add(333)
+        jj.remove(2)
+        jj.remove(2)
+
+        var jjjjj = jj.map { it*2 }
+
+        for (item in jjjjj) {
+            println(item)
+        }
+
+
+
+
+        var open=Coordinate(22.4,77.9)
+        open.x=999.33
     }
 
+
+
+
+
+
+
+    data class
+    Coordinate
+    (
+            var x:Double,
+            var y:Double
+    )
 }
